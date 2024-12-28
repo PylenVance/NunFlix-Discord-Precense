@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "Nunflix Discord Presence",
+    "version": "1.0",
+    "permissions": ["tabs", "activeTab", "scripting"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "host_permissions": ["*://nunflix.org/*"],
+    "description": "Show what movie you are watching through discord!",
+    "icons": {
+    "16": "NunFlix.png",
+    "48": "NunFlix.png",
+    "128": "NunFlix.png"
+    }
+  }
+  
